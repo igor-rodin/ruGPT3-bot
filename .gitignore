@@ -1,6 +1,7 @@
 # MacOs-specific files
 .DS_Store
 
+botenv
 __pycache__
 .idea
 *.json
