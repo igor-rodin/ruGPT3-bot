@@ -1,4 +1,4 @@
-import my_telebot
+import telebot
 
 if __name__ == '__main__':
-    my_telebot.bot.infinity_polling()
+    telebot.bot.infinity_polling(skip_pending=True)
